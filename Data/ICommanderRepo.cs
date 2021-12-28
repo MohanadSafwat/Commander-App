@@ -5,9 +5,13 @@ namespace commander.Data{
 
     public interface  ICommanderRepo
     {
-        IEnumerable<Command> GetAppCommand();
+        IEnumerable<Command> GetAllCommands();
 
-        Comamnd GetCommandById(int id);
+        Command GetCommandById(int id);
+
+        void CreateCommand(Command cmd);
+        bool SaveChanges();
+        void UpdateCommand(Command cmd);
          
     }
 }

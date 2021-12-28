@@ -1,30 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/Users/mohanadsafwat/Desktop/commander/commander.csproj": {}
+    "C:\\Users\\Mohan\\OneDrive\\Documents\\GitHub\\Commander-App\\commander.csproj": {}
   },
   "projects": {
-    "/Users/mohanadsafwat/Desktop/commander/commander.csproj": {
+    "C:\\Users\\Mohan\\OneDrive\\Documents\\GitHub\\Commander-App\\commander.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mohanadsafwat/Desktop/commander/commander.csproj",
+        "projectUniqueName": "C:\\Users\\Mohan\\OneDrive\\Documents\\GitHub\\Commander-App\\commander.csproj",
         "projectName": "commander",
-        "projectPath": "/Users/mohanadsafwat/Desktop/commander/commander.csproj",
-        "packagesPath": "/Users/mohanadsafwat/.nuget/packages/",
-        "outputPath": "/Users/mohanadsafwat/Desktop/commander/obj/",
+        "projectPath": "C:\\Users\\Mohan\\OneDrive\\Documents\\GitHub\\Commander-App\\commander.csproj",
+        "packagesPath": "C:\\Users\\Mohan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mohan\\OneDrive\\Documents\\GitHub\\Commander-App\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/mohanadsafwat/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Mohan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -35,9 +37,35 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "Microsoft.AspNetCore.JsonPatch": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
@@ -53,6 +81,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.21, 3.1.21]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -61,7 +95,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.403/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
